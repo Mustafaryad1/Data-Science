@@ -45,5 +45,5 @@ def extract_feature(file_name, **kwargs):
 LE=LabelEncoder()
 labels = LE.fit_transform(['happy','angry','surprised'])
 
-filename = 'E:\\test\\ESR project\\flaskapp\\final_model.sav'
+filename = 'final_model.sav'
 loaded_model = pickle.load(open(filename, 'rb'))
