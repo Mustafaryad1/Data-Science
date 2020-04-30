@@ -1,0 +1,7 @@
+numpy
+pandas
+flask
+librosa
+plotly
+flask-alqchemy
+sklearn
